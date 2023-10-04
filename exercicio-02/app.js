@@ -18,7 +18,7 @@
 Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
 */
 
-// console.log('Grandes poderes trazem grandes responsabilidades.')
+// console.log('Grandes poderes trazem grandes responsabilidades')
 
 /*
 04 - Comente o console.log acima, e:
@@ -132,7 +132,10 @@ const winterMessage = 'o inverno está chegando'
 */
 
 const harryPotterAuthor = 'J.K. Rowling'
-// console.log(harryPotterAuthor.slice(0, 4))
+
+const stringJK = harryPotterAuthor.slice(0, 4)
+
+// console.log(stringJK)
 
 /*
 14 - Comente o console.log acima, e,
@@ -146,6 +149,7 @@ const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 const realBestMovie = bestMovie.replace('La la land', 'Moonlight')
 
 // console.log(realBestMovie)
+
 
 /*
 15 - Comente o console.log acima, e,
@@ -167,7 +171,7 @@ const reminder = 10 % 3
 */
 
 let episodes = 6
-episodes++
+episodes = episodes + 1
 
 // console.log(episodes)
 
@@ -202,7 +206,7 @@ episodes += 10
 - Exiba a "allEpisodes" no console.
 */
 
-let allEpisodes = `O nº de episódios é: ${episodes}`
+const allEpisodes = `O nº de episódios é: ${episodes}`
 
 // console.log(allEpisodes)
 
@@ -230,9 +234,10 @@ const bookMessage = '\'O Conto da Aia\' é um dos livros mais vendidos da décad
 */
 
 const name = 'walter white'
-let newName = name[0].toUpperCase() + name.slice(1, 6) + ' ' + name[7].toUpperCase() + name.slice(8)
+let newName = name[0].toUpperCase() + name.slice(1, 7) + name[7].toUpperCase() + name.slice(8)
 
 // console.log(newName)
+
 
 /*
 22 - Comente o console.log acima, e,
